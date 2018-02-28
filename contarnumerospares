@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main () 
+{   int n,s,t,d;
+cout<< "Introduzca el numero que desea trabajar: \n"; cin >> n;
+t=0;
+ while (n>0){
+        s=n%10;
+        if (s%2==0){
+         t=t+1;
+}
+n=n/10;
+}
+cout<< "la cantidad de numeros pares son: \n" <<t;
+getch();
+}
