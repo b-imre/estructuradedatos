@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main () 
+{   int num; int sum=0;
+	cout << "Ingrese el numero con el que desea trabajar \n";
+	cin >> num;
+	while (num>0)
+{
+	sum=sum+num%10;
+	num=num/10;
+}
+	cout<< "La suma de sus digitos es: \n" <<sum;
+	getch();
+}
