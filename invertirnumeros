@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main () 
+{   int n; int z; int a;
+cout << "Introduzca el numero que desea invertir: \n"; cin >> n;
+    a=0;
+    while (n>0)
+    {
+    z=n%10;
+    a=a*10+z;
+    n=n/10;
+    }
+    cout<< "su numero invertido es: \n" <<a;
+	getch();
+    
+
+}
